@@ -1,0 +1,162 @@
+*{font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;}
+/*Padding secciones generales*/
+section{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+/*Imagen de home lg*/
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 15em 0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/creation.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+/*Imagen de home sm*/
+.intron{
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 10em 0;
+    text-align: center;
+    color: #000;
+    background: url(../img/computadora.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+/*Portafolio*/
+h3 a {
+    color:#fff;
+    margin-bottom: -15em;
+}
+h3 a:hover {
+    outline: 0;
+    color: rgba(255,255,255,.8);
+    background-color: transparent;
+}
+h3 a:focus{
+    background-color:rgba(255,255,255,.8);
+    color:#000;
+}
+#Portafolio{
+    text-align: center;
+}
+.portofolio{
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+.portafolio_img{
+    padding:1em;
+    display: inline;
+    border-style:solid;
+    border-color: rgba(255,255,255,.8);
+    border-width: .1em;
+    margin-bottom: 2em;
+
+}
+/*Sección Herramientas*/
+#Herramientas{
+    display: table;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+}
+.Herramientas {
+    background: url(../img/wall.png) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.black{
+    color:#000;
+}
+#Herramientas img{
+    width: 5em;
+    height: 5em;
+    display: inline-block;
+}
+hr{
+    width: 30%;
+    text-align: center;
+}
+.padding{
+    margin-top:-1em;
+}
+/*Proceso Creativo*/
+.shadow{
+    height: auto;
+    background-color:rgba(250,250,250,.5);  
+}
+#Proceso{
+    display: table;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #B40431;
+    background: url(../img/brain3.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+/*Yo*/
+button a{
+    color:#fff;
+}
+button a:hover{
+    color:#000;
+}
+/*Redes sociales*/
+.socialMedia{
+    width: 5em;
+    height: 5em;
+    display: inline-block;
+    text-align: center;
+}
+.zoomIt{
+-webkit-transition:-webkit-transform .5s ease-out;
+-moz-transition:-moz-transform .5s ease-out;
+-o-transition:-o-transform.5s ease-out;
+-ms-transition:-ms-transform .5s ease-out;
+transition:transform .5s ease-out;
+}
+.zoomIt:hover{
+-moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1)
+}
+/*Contacto*/
+input{
+    text-align: center;
+    font-size: 2em;
+}
+footer{
+    background-color: #000;
+    color:#fff;
+    height: 2em;
+}
+.Going{
+    color:#fff;
+    font-size: 1.5em;
+}
+.Going:hover{
+    color: rgba(255,255,255,.8);
+}
+
