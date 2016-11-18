@@ -1,0 +1,102 @@
+nav{
+  position: fixed;
+  z-index: 100;
+  background-color:#fb40b5; 
+}
+nav ul a,
+nav .brand-logo {
+  color: #fff;
+
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color:#fff;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+/*Propio*/
+.shadow{
+  width: 100%;
+  padding: 15em 0;
+  color: #fff;
+}
+.init{
+  padding:2em;
+  background-color:rgba(251, 64, 181, .3);
+}
+.turq,
+.turq:link{
+  background-color: #63c3c2;
+  color:#fff;
+}
+.turq:hover,
+.turq:active,
+.turq:visited{
+  background-color: #fff;
+  color:#63c3c2;
+}
+
+.mexp{
+  background-color: #fb40b5;
+  color:#fff;
+}
+
+.mexp:hover,
+.mexp:active{
+  background-color: #fff;
+  color:#fb40b5;
+}
+.paddingbot{
+  padding-top: -em;
+}
+.bio{
+  padding-top: 5em;
+  text-align: justify;
+  font-size: 18px;
+}
+.social{
+  width: 3em;
+  height: 3em;
+}
+.Foot li{
+  display: inline-block;
+}
+footer.page-footer {
+  margin: 0;
+  background-color: #343434;
+}
